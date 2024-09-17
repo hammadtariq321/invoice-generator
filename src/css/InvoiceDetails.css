@@ -1,0 +1,42 @@
+.invoice-details {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.abn {
+    font-size: 18px;
+}
+
+.abn b {
+    padding-right: 20px;
+}
+
+.invoice-id {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.invoice-id ul {
+    padding: 0;
+}
+
+.invoice-id li {
+    display: flex;
+    list-style: none;
+    padding: 5px 0.5rem;
+    justify-content: space-between;
+}
+
+.invoice-id li:nth-child(2) {
+    background-color: #f5f5f5;
+    border-radius: 2px;
+}
+
+.invoice-id b {
+    padding-right: 40px;
+}

@@ -1,0 +1,35 @@
+.payment-details {
+    display: flex;
+    align-self: flex-end;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    /* margin-top: 60px; */
+}
+
+.payment-details h4 {
+    margin: 5px 0;
+}
+
+.payment-details ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+.payment-details li {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 0.5rem;
+}
+
+.payment-details li {
+    list-style: none;
+}
+
+.payment-details li:nth-child(2) {
+    background-color: #f5f5f5;
+    border-radius: 2px;
+}
+
+.payment-details b {
+   width: 160px;
+}

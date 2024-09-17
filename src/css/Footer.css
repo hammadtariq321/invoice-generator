@@ -1,0 +1,25 @@
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+footer li {
+    margin: 5px 5px;
+    list-style: none;
+}
+
+footer .preview-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 0.7rem 1.5rem;
+}
+
+@media print {
+    footer .preview-btn {
+        display: none;
+    }
+}

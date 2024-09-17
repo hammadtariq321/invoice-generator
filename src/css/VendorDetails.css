@@ -1,0 +1,17 @@
+.vendor-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 0.5rem;
+}
+
+.vendor-details h2 {
+    font-weight: initial;
+}
+
+.abn {
+    background-color: #f5f5f5;
+    border-radius: 2px;
+    padding: 5px 0.5rem 5px 0;
+}
